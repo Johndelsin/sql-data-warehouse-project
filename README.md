@@ -24,4 +24,13 @@ Develop a modern data warehouse usin SQL Server to consolidate sales data, enabl
 ### BI: Analytics & Reporting (Data Analytics)
 
 #### Objective
-Develop 
+Develop SQL-based analytics to deliver detailed insights into:
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
+
+These insights empower stakeholders with key business metrics, enablin strateic decision-making.
+
+---
+## Credit
+Credit to Baraa Khatib Salkini also known as **Data With Baraa**
