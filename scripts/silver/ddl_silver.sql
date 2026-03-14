@@ -1,11 +1,14 @@
 /*
--------------------------------------------------------------------------------
-Project: Data Warehouse Modernization
-Layer: Silver (Cleansed & Modeled)
-Description: 
-    Initializes the schema for the Silver layer. This script ensures a clean 
-    state by recreating tables, facilitating schema evolution and testing.
--------------------------------------------------------------------------------
+=====================================================================================================
+DDL Script: Create Silver Tables
+=====================================================================================================
+Script Purpose:
+	Initializes the refined table structures within the silver schema.
+	Executes a drop-and-recreate sequence to align the schema with the 
+	transformed data model and business logic requirements.
+
+Intended for development or controlled rebuild scenarios.
+======================================================================================================
 */
 IF OBJECT_ID ('silver.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE silver.crm_cust_info;
